@@ -15,14 +15,19 @@ Follow these steps to reproduce the same environment locally:
 git clone <your-repo-url>
 cd <your-repo-folder>
 ```
+### 2. Create Setup Task Branch
 
-### 2. Checkout the Setup Branch (if not merged yet)
+```bash
+git branch setup-task
+```
+
+### 3. Checkout the Setup Branch 
 
 ```bash
 git checkout setup-task
 ```
 
-### 3. Create and Activate a Virtual Environment
+### 4. Create and Activate a Virtual Environment
 
 ```bash
 # On Windows
